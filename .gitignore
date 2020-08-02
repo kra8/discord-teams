@@ -1,4 +1,8 @@
 node_modules
 .vscode
 
-config.json
+.env
+
+# parcel bundlers
+/.parcel-cache
+/dist
