@@ -27,7 +27,7 @@ bot.onMessage(message => {
     })
     message.channel.send(text)
   } catch(error) {
-    message.channel.send('`!teams <number>`')
+    message.channel.send('error: signature is `!teams <number>`')
   }
 })
 
